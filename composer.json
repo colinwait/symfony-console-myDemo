@@ -1,0 +1,21 @@
+{
+    "require": {
+        "php" : ">=7.2.5",
+        "symfony/console": "^5.0",
+        "symfony/dotenv": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyShell\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
